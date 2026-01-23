@@ -1,0 +1,14 @@
+npm init es6 -y
+npm i react
+npm i react-dom
+npm i @types/react @types/react-dom -D
+npm i typescript
+npm i typescript -D
+npm i webpack -D
+npm i webpack-cli -D
+npm i webpack-dev-server -D
+npm i @babel/preset-env @babel/preset-react @babel/preset-typescript babel-loader -D
+npm i html-webpack-plugin -D
+npm i css-loader -D
+npm i style-loader -D
+npm i webpack-dev-server -D
