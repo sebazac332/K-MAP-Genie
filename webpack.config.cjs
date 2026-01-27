@@ -10,6 +10,10 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         assetModuleFilename: 'images/[name][ext]'
     },
+    devServer: {
+        static: path.resolve(__dirname, 'dist'),
+        port: 6788
+    },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',

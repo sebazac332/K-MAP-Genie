@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "K-Map Genie",
   "version": "1.0.0",
-  "description": "",
+  "description": "App created to calculate Karnaugh maps",
   "main": "index.js",
   "type": "module",
   "license": "AGPL-version-3.0",
@@ -24,8 +24,7 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
-    "test": ""
+    "start": "webpack server --open --config webpack.config.cjs"
   },
   "dependencies": {
     "react": "^19.2.3",
